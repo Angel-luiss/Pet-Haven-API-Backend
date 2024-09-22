@@ -21,7 +21,7 @@ app.use('/api', router);  // Todas las rutas estarán bajo "/api"
 
 // Ruta de bienvenida
 app.get("/", (req, res) => {
-  res.json({ message: "Bienvenido Estudiantes de UMG, Aplicacion De Angel En RENDER XD" });
+  res.json({ message: "Bienvenido Estudiantes de UMG, Octavo Semestre, Ing. Sistemas Aplicacion De Angel En RENDER XD" });
 });
 
 // Inicializar la base de datos y luego levantar el servidor
